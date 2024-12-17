@@ -1,13 +1,15 @@
 <h1 style="text-align: center;">Adicionar Jogos</h1>
+
 <hr/>
 <form>
   <table style="margin: auto;">
     <tr>
-      <td><div *ngIf="categoria == 'Jogo de cartas'" style="background-color: red;"> Atenção: A idade Minima para jogar deve ser 10 anos de idade.</div></td>
+      <td><div *ngIf="categoria == 'Jogo de cartas' " style="background-color: red;"> Atenção: A idade minima para jogar é 10 anos de idade. </div></td>
       </tr>
       <tr>
         <td><div *ngIf="categoria == 'Jogo de tabuleiro'" style="background-color: red;"> Atenção: O jogo necessecita de no minímo 2 participantes.</div></td>
         </tr>
+        
     <tr>
       <td>Categoria do Jogo:</td>
       <td><input type="text" name="categoria" [(ngModel)]="categoria"></td>

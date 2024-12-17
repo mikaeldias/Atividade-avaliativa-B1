@@ -23,7 +23,6 @@ export class AppComponent {
   tipo_jogo: string = '';
   idade_jogador: number = 0
 
-
   adcionarItem() {
     const AddJogo: Jogo = new Jogo(
       this.codigo,
@@ -45,8 +44,12 @@ export class AppComponent {
     
   }
   idadeMinCartas(){
-    return 'A idade Minima para jogar deve ser 10 anos de idade.'
+    // No campo "Categoria do jogo, digite: "Jogo de cartas" para ver a regra.
 }
+  qtdJogadores(){
+    // No campo "Categoria do jogo, digite: "Jogo de tabuleiro" para ver a regra.
+  }
 }
+
 
 

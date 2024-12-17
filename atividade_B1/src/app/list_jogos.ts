@@ -11,7 +11,4 @@ export class TodosOsJogos {
         this.itens.splice(indice, 1);
     }
 
-    idadeMinCartas(){
-        return 'A idade Minima para jogar deve ser 10 anos de idade.'
-    }
 }
